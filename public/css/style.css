@@ -1,0 +1,102 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    overflow-y: hidden; /* Menghilangkan scrollbar vertikal */
+}
+
+.display-4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: #26a69a;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important; /* Navbar text color */
+}
+.nav-link:hover {
+    color: #80cbc4 !important; /* Navbar text hover color */
+}
+.navbar-nav .nav-item {
+    text-align: center; /* Menyelaraskan teks navigasi di tengah */
+    font-size: 1.1rem;
+}
+.navbar-nav .nav-item .nav-link {
+    display: inline-block; /* Menampilkan link secara inline */
+    padding-left: 20px; /* Jarak kiri item navbar */
+    padding-right: 20px; /* Jarak kanan item navbar */
+}
+
+.jumbotron {
+    background-color: white; /* Warna putih */
+    color: #26a69a;
+    min-height: 100vh; /* Mengisi tinggi viewport */
+    margin-bottom: 0; /* Menghilangkan margin bawah */
+    display: flex;
+    flex-direction: column; /* Mengatur flex direction ke kolom */
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid {
+    background-color: #26a69a; /* Warna hijau tosca */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: white; /* Warna background card putih */
+    color: #26a69a; /* Warna teks card */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body .btn {
+    background-color: #26a69a;
+    border-color: #26a69a;
+}
+
+.card-body .btn:hover {
+    background-color: #00796b;
+    border-color: #00796b;
+}
+
+.card-title {
+    color: #26a69a; /* Warna teks card */
+    font-size: 1.5rem; /* Ukuran font title card */
+}
+
+.card-text {
+    font-size: 2rem; /* Ukuran font text card */
+}
+
+.btn-light {
+    color: #ffffff !important;
+}
+
+.container {
+    padding-top: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #00796b;
+}
+
+h1 {
+    margin-top: 20px; /* Tambahkan margin atas pada elemen h1 */
+}
